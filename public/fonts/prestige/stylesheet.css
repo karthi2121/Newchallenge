@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Prestage';
+    src: url('PrestageItalic-Italic.eot');
+    src: url('PrestageItalic-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PrestageItalic-Italic.woff2') format('woff2'),
+        url('PrestageItalic-Italic.woff') format('woff'),
+        url('PrestageItalic-Italic.ttf') format('truetype'),
+        url('PrestageItalic-Italic.svg#PrestageItalic-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prestage Outline';
+    src: url('PrestageOutlineItalic.eot');
+    src: url('PrestageOutlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('PrestageOutlineItalic.woff2') format('woff2'),
+        url('PrestageOutlineItalic.woff') format('woff'),
+        url('PrestageOutlineItalic.ttf') format('truetype'),
+        url('PrestageOutlineItalic.svg#PrestageOutlineItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prestage';
+    src: url('Prestage.eot');
+    src: url('Prestage.eot?#iefix') format('embedded-opentype'),
+        url('Prestage.woff2') format('woff2'),
+        url('Prestage.woff') format('woff'),
+        url('Prestage.ttf') format('truetype'),
+        url('Prestage.svg#Prestage') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prestage Outline';
+    src: url('PrestageOutline.eot');
+    src: url('PrestageOutline.eot?#iefix') format('embedded-opentype'),
+        url('PrestageOutline.woff2') format('woff2'),
+        url('PrestageOutline.woff') format('woff'),
+        url('PrestageOutline.ttf') format('truetype'),
+        url('PrestageOutline.svg#PrestageOutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

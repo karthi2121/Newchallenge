@@ -1,0 +1,434 @@
+/* RESPONSIVE CSS HERE */
+@media(min-width: 1200px){
+	.container {
+		max-width: 1400px;
+	}
+}
+@media (min-width: 1650px) {
+	.container {
+		max-width: 1600px;
+	}
+} 
+
+
+@media(max-width: 1700px){
+	.section-1 img {
+		transform: translate(-82px, 70px);
+		max-width: calc(100% + 50px);
+	}
+}
+@media(max-width: 1650px){
+	.section-1 h1 {
+		font-size: 80px;
+	}
+	.section-1 img {
+		transform: translate(0px, 121px);
+		max-width: calc(100% + 120px);
+	}
+	.player-info .text-block h2 {
+		font-size: 14px;
+	}
+	.player-info .text-block p {
+		font-size: 14px;
+	}
+	.video-info .text-block h2 {
+		font-size: 25px;
+	}
+	.video-info .text-block p {
+		font-size: 14px;
+	}
+	.rank-listing .rank-body .data-rank {
+		padding-top: 170%;
+	}
+	.slider-section ul .slider-wrapper .step-content {
+		margin-left: -12rem;
+	}
+	.section-1 img {
+		transform: translate(-30px, 119px);
+		max-width: calc(100% + 0px);
+	}
+}
+@media(max-width: 1500px){
+	.col-ranks .rank-listing .rank-body .rank-item .rank-info-1 h4 {
+		font-size: 12px;
+	}
+	.col-ranks .rank-listing .rank-body .rank-item .rank-info-1 p {
+		font-size: 12px;
+	}
+}
+
+@media(max-width: 1440px){
+	.detail-wrapper{
+		flex-direction: column;
+		text-align: center;
+	}
+	.col-ranks .rank-listing .rank-body .rank-item .rank-info-1 h3, .col-ranks .rank-listing .rank-body .rank-item .rank-info-1 h4 {
+		word-break: break-all;
+		font-size: 12px;
+		margin-right: 20px;
+	}
+	.rank-body .rank-item:hover {
+		border: 1px solid #EF6500;
+	}
+	.col-ranks .rank-body .rank-item{
+		overflow-X: scroll;
+	}
+	.col-ranks .rank-body .rank-item::-webkit-scrollbar {
+		height: 2px;
+	}
+	.col-ranks .rank-body .rank-item::-webkit-scrollbar-track{
+		background-color: transparent;
+	}
+	.col-ranks .rank-body .rank-item::-webkit-scrollbar-thumb{
+		background-color:#EF6500;
+	}
+	.col-ranks .rank-body .rank-item .row{
+		width: 700px;
+	}
+	.popular-challenge .info-wrapper p {
+		font-size: 14px;
+	}
+	.popular-challenge .info-wrapper h4 {
+		font-size: 16px;
+	}
+	.popular-challenge .info-wrapper label {
+		font-size: 13px;
+	}
+	.slider-section ul .slider-wrapper img {
+		margin-right: -3rem;
+		margin-top: -2rem;
+		height: 500px;
+	}
+	.slider-section ul.owl-carousel .owl-dots {
+		margin-top: 10px;
+	}
+	.slider-section {
+		margin-top: 0rem;
+	}
+	.slider-section ul .slider-wrapper .step-content h2 {
+		font-size: 40px;
+	}
+	.slider-section ul .slider-wrapper .step-content {
+		margin-left: -8rem;
+		max-width: 450px;
+		margin-top: 60px;
+	}
+}
+
+@media(max-width: 1300px){
+	.section-1 img {
+		transform: translate(0px, 0px);
+		max-width: calc(100% + 32px);
+	}
+	.slider-section ul.owl-carousel .owl-stage-outer {
+		padding-top: 3rem;
+	}
+}
+@media(max-width: 1200px){
+	.slider-section ul .slider-wrapper img {
+		margin-left: 42px;
+	}
+	.slider-section ul .slider-wrapper .step-content p {
+		font-size: 14px;
+	}
+	.slider-section ul .slider-wrapper .step-content {
+		margin-left: -10rem;
+		max-width: 350px;
+	}
+}
+
+@media(max-width: 1199px){
+	.top-banner .top-pages a {
+		font-size: 22px;
+	}
+	.table-wrapper {
+		overflow-x: scroll;
+		margin-bottom: 20px;
+	}
+	.table-wrapper .rank-header{
+		width: 1440px;
+	}
+	.table-wrapper .rank-body{
+		width: 1440px;
+	}
+	.table-wrapper::-webkit-scrollbar {
+		height: 2px;
+	}
+	.table-wrapper::-webkit-scrollbar-track{
+		background-color: transparent;
+	}
+	.table-wrapper::-webkit-scrollbar-thumb {
+		background-color:#EF6500;
+	}
+
+}
+
+@media(max-width: 1100px){
+	header .main-navigation .nav-item .nav-link {
+		padding: 7px 20px;
+	}
+}
+
+@media(max-width: 991px){
+	ul.list-inline.social-media {
+		margin: 20px 0;
+	}
+	footer .copy {
+		font-family: "Bebas Neue", cursive;
+		display: block;
+		margin-top: 10px;
+	}
+	.section-5 .video-highlight{
+		margin-bottom: 50px;
+	}
+	.common-cols{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.challenge-main .challenge-wrapper .popular-challenge {
+		margin-top: 30px;
+	}
+	.rank-filters input:not([type=submit]) {
+		margin-bottom: 20px;
+	}
+	.popular-challenge .info-wrapper label {
+		text-align: center;
+	}
+	.rank-filters input:not([type=submit]), .rank-filters select {
+		margin-bottom: 20px;
+	}
+	.challenge-main .challenge-wrapper .popular-challenge .game-banner h2 {
+		font-size: 45px;
+	}
+	.user-challenge-banner {
+		min-height: 300px;
+	}
+	.order-2-block{
+		order: 2;
+		margin-top: 30px;
+	}
+	.col-ranks .rank-body .rank-item .row {
+		width: 100%;
+	}
+	.header-search .button-search .search-block {
+		margin-top: 20px;
+	}
+	.cs-badge {
+		padding-top: 35%;
+	}
+	.user-challenge-banner .who-is-score .totality:after {
+		width: 120px;
+		height: 120px;
+	}
+	.user-challenge-banner .who-is-score .score-label {
+		font-size: 12px;
+	}
+	.user-challenge-banner .who-is-score .totality .score {
+		font-size: 45px;
+	}
+	.paging {
+		display: flex;
+	}
+	.top-banner .top-pages a {
+		width: 33%;
+	}
+	.slider-section ul .slider-wrapper {
+		min-height: auto;
+	}
+	.slider-section ul .slider-wrapper .step-content {
+		max-width: 100%;
+		padding: 0px 20px 50px;
+		margin: 0;
+	}
+	.slider-section ul .slider-wrapper {
+		min-height: auto;
+		background-size: cover;
+	}
+	.slider-section ul .slider-wrapper img {
+		height: 440px;
+	}
+	.slider-section ul.owl-carousel .owl-dots {
+		margin-top: 50px;
+	}	
+}
+
+@media(max-width: 768px){
+	.challenge-main .challenge-wrapper .popular-challenge .game-banner h2 {
+		font-size: 35px;
+	}
+	.challenge-table .video-highlight img.thumbnail {
+		width: 100%;
+		height: 400px;
+		object-fit: cover;
+	}
+	.header-search .anchor-challenge a {
+		font-size: 16px;
+	}
+	.user-challenges-banner .challenge-empty-banner h3 {
+		font-size: 20px;
+	}
+	.rank-listing.rank-challenges .rank-item .user-info .challenge-name {
+		font-size: 18px;
+	}
+	.rank-listing.rank-challenges .rank-item .user-info .game {
+		font-size: 12px;
+	}
+}
+
+@media(max-width: 767px){
+	.rank-parent.d-flex.align-items-center.justify-content-between {
+		margin-bottom: 30px;
+	}
+	.section-1 h1 {
+		font-size: 60px;
+		margin-top: 50px;
+	}
+	.section-1 img {
+		transform: translate(0px, 0px);
+		max-width: calc(100% + 32px);
+		margin: 50px 0;
+	}
+	.login-link{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.col-ranks .rank-body .rank-item .row {
+		width: 800px;
+	}
+	.video-info .row .col {
+		width: 100%;
+		flex: 100%;
+		max-width: 100%;
+	}
+	.sponsor-section .brand-wrapper .sponsor-name {
+		transform: translate(0rem, 0px);
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	.sponsor-section .brand-wrapper .sponsor-name h2 {
+		font-size: 60px;
+	}
+	.sponsor-section .brand-wrapper .sponsor-name p {
+		font-size: 14px;
+	}
+	.who-is-score .row{
+		flex-direction: column;
+	}
+	.user-challenge-banner .who-is-score .score-label {
+		margin-bottom: 20px;
+	}
+	.user-challenge-banner .who-is-score .totality {
+		margin-bottom: 30px;
+	}
+	.user-challenge-banner .who-is-score .totality:after {
+		bottom: -15px;
+	}
+	.rank-wrapper {
+		overflow-x: scroll;
+	}
+	.rank-wrapper .rank-header{
+		width: 800px;
+	}
+	.rank-wrapper .rank-body{
+		width: 800px;
+	}
+	.rank-wrapper::-webkit-scrollbar {
+		height: 2px;
+	}
+	.rank-wrapper::-webkit-scrollbar-track{
+		background-color: transparent;
+	}
+	.rank-wrapper::-webkit-scrollbar-thumb {
+		background-color:#EF6500;
+	}
+	.user-challenges-banner .banner-common h3 {
+		font-size: 20px;
+	}
+	.rank-listing .rank-body .data-rank {
+		padding-top: 200%;
+	}
+	.top-games-table .rank-body .data-rank {
+		padding-top: 20%;
+	}
+	.top-leaderboard-table .rank-body .data-rank{
+		padding: 20%;
+	}
+	.slider-section ul .slider-wrapper img {
+		height: 258px;
+		margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 575px){
+	.section-1 img {
+		max-width: calc(100% + 0px);
+	}
+	.challenge-main .challenge-wrapper .challenge-sidebar .challenge-game-list .item .info-wrapper h4 {
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 523px){
+	.header-search .space-between {
+		flex-direction: column;
+	}
+	.header-search .anchor-challenge {
+		text-align: left;
+		margin-top: 20px;
+	}
+	.challenge-table .video-highlight img.banner-tagline {
+		bottom: 20px;
+		left: 20px;
+		width: 30%;
+	}
+	.comment-list .comment-row .name h3 {
+		font-size: 14px;
+	}
+	.comment-list .comment-row .name p {
+		font-size: 12px;
+	}
+	.comment-list .comment-row .flex-cont .view-reply button {
+		font-size: 12px;
+	}
+	.comment-list .comment-row .icon-interact a {
+		font-size: 12px;
+	}
+	.comment-list .comment-row .icon-interact a img {
+		height: 20px;
+		width: 20px;
+		object-fit: contain;
+	}
+}
+
+
+@media(max-width: 425px){
+	.common-cols {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.rank-parent.d-flex.align-items-center.justify-content-between {
+		margin-bottom: 50px;
+		flex-direction: column;
+	}
+	.section-2 .rank-parent .gold {
+		margin: 5rem 0;
+	}
+	.section-2 {
+		padding: 50px 0 0px;
+	}
+	.rank.bronze {
+		margin-bottom: 40px;
+	}
+	footer .newsletter input[type=submit] {
+		width: 100%;
+		position: relative;
+	}
+	.top-banner .top-pages a {
+		width: 100%;
+	}
+	.slider-section ul .slider-wrapper img {
+		height: 223px;
+		margin-bottom: 20px;
+		margin-left: auto;
+	}
+}
